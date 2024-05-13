@@ -1,0 +1,162 @@
+@import url(./home.css);
+
+.cart_container {
+    padding: 2rem;
+}
+
+.section_heading {
+    text-align: center;
+    font-size: var(--font_l);
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.product_details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart_product_block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart_product_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+    /* background-color: green; */
+    border-radius: var(--br_radius);
+    border: 1px solid grey;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+        -webkit-box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, 0.75);
+        transition: all 0.6s;
+    }
+    & img {
+        width: 100%;
+        max-width: 100px;
+    }
+}
+
+.product_info {
+    align-self: self-start;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-inline: auto;
+
+    & input {
+        width: 40px;
+        height: 40px;
+        padding: 2px;
+    }
+}
+
+.book_title {
+    font-size: var(--font_m);
+}
+
+.product_summary {
+    border: 1px solid grey;
+    padding: 2rem;
+    border-radius: var(--br_radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & .section_heading {
+        border-bottom: 2px solid grey;
+    }
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.price {
+    font-weight: bold;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+h3 {
+    font-size: var(--font_m);
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #cccccc;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ffffff;
+}
+
+@media only screen and (width >= 768px) {
+    .product_details {
+        flex-direction: row;
+    }
+
+    .cart_product_block {
+        width: 60%;
+    }
+
+    .product_summary {
+        width: 40%;
+    }
+
+    .cart_product_card {
+        flex-direction: row;
+    }
+}

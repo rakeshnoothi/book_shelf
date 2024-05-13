@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="../assets/image/favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="../css/signup.css" />
+        <title>Book Shelf</title>
+    </head>
+    <body>
+        <video
+            class="bg_video"
+            src="/assets/video/login_page_book_shelf.mp4"
+            loop
+            autoplay
+        ></video>
+        <div class="bg_overlay"></div>
+        <div class="fg_content">
+            <header class="header">
+                <img
+                    class="logo"
+                    src="../assets/image/transparent_logo.png"
+                    alt="logo"
+                />
+            </header>
+            <main class="main">
+                <div class="glass_wrapper">
+                    <div class="glow_circle"></div>
+                    <div>
+                        <h1 class="heading">Create New Account</h1>
+                        <p class="login_redirect">
+                            already a member? <a href="../index.html">Login</a>
+                        </p>
+                    </div>
+                    <form action="" class="form">
+                        <div class="input_name_wrapper">
+                            <input
+                                type="text"
+                                id="first_name"
+                                placeholder="First Name"
+                                required
+                            />
+                            <input
+                                type="text"
+                                id="last_name"
+                                placeholder="Last Name"
+                                required
+                            />
+                        </div>
+                        <input
+                            type="email"
+                            placeholder="Email Address"
+                            required
+                        />
+                        <input
+                            type="password"
+                            placeholder="Password"
+                            required
+                        />
+                        <input
+                            type="password"
+                            placeholder="Confirm Password"
+                            required
+                        />
+                        <a href="./home.html" class="action_button"
+                            >Create Account</a
+                        >
+                    </form>
+                </div>
+            </main>
+        </div>
+        <script type="module" src="../js/signup.js"></script>
+    </body>
+</html>

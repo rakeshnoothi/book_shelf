@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="../assets/image/favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="../css/home.css" />
+        <title>Book Shelf</title>
+    </head>
+    <body>
+        <aside class="aside">
+            <div class="nav_overlay"></div>
+            <ul class="nav_aside_items">
+                <li class="cross_icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                    >
+                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                        />
+                    </svg>
+                </li>
+                <li><a href="../html/home.html">Home</a></li>
+                <li><a href="">Best Sellers</a></li>
+                <li><a href="../html/cart.html">Cart</a></li>
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="../index.html">Logout</a></li>
+            </ul>
+        </aside>
+        <header class="global_header">
+            <nav class="nav_wrapper">
+                <a class="logo" href="./home.html">
+                    <img
+                        src="../assets/image/transparent_logo.png"
+                        alt="logo"
+                    />
+                </a>
+                <ul class="nav_items">
+                    <li><a href="../html/home.html">Home</a></li>
+                    <li><a href="">Best Seller</a></li>
+                    <li><a href="../html/cart.html">Cart</a></li>
+                    <li><a href="../html/about.html">About</a></li>
+                    <li><a href="../index.html">Logout</a></li>
+                </ul>
+                <div class="hamburger_icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                    >
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                        />
+                    </svg>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="carousel">
+                <div class="slide_wrapper">
+                    <div class="slide">
+                        <img src="../assets/image/banner_1.webp" alt="yellow" />
+                    </div>
+                    <div class="slide">
+                        <img src="../assets/image/banner_2.webp" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="../assets/image/banner_3.webp" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Best seller books -->
+            <section class="product">
+                <section>
+                    <h1 class="section_heading">Best Seller</h1>
+                    <div class="best_seller">
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_2.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Dune</span>
+                                <span>Frank Herbert</span>
+                                <span>&#8377; 599</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_3.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>The Black Orphan</span>
+                                <span>Husain Zaidi</span>
+                                <span>&#8377; 399</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_1.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Game Of Thrones</span>
+                                <span>George R R Martin</span>
+                                <span>&#8377; 999</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_4.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Unfinished: A memoir</span>
+                                <span>Priyanka Chopra</span>
+                                <span>&#8377; 199</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_5.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Jessamin Chan</span>
+                                <span>A School For Good Mothers</span>
+                                <span>&#8377; 499</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_6.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>A MAN CALLED OVE</span>
+                                <span>Fredrik BackmanHenning Koch</span>
+                                <span>&#8377; 499</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- _____________________Explore section___________________ -->
+                <section>
+                    <h1 class="section_heading">Explore</h1>
+                    <div class="explore">
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_15.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Percy Jackson</span>
+                                <span>Rick Reodson</span>
+                                <span>&#8377; 599</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_16.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Steve Jobs Mantra</span>
+                                <span>Steve Jobs</span>
+                                <span>&#8377; 999</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_17.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Ignited Minds</span>
+                                <span>Dr. APJ Abdul Kalam</span>
+                                <span>&#8377; 899</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_7.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Nehru And Bose</span>
+                                <span>Rudranshu Mukharjee</span>
+                                <span>&#8377; 399</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_8.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Competing In The Age Of AI</span>
+                                <span>Marco Lansiti</span>
+                                <span>&#8377; 599</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_9.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>The Science Of Money</span>
+                                <span>Brain Tracy</span>
+                                <span>&#8377; 599</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_10.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Black Holes</span>
+                                <span>Stephen Hawkings</span>
+                                <span>&#8377; 799</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_11.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Introducing Particle Physics</span>
+                                <span>James whitney</span>
+                                <span>&#8377; 599</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_12.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>E = MC2</span>
+                                <span>David Bodanis</span>
+                                <span>&#8377; 599</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_13.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>Atomic Habits</span>
+                                <span>James Clear</span>
+                                <span>&#8377; 999</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="../assets/image/books/book_14.webp"
+                                alt=""
+                            />
+                            <div class="book_details">
+                                <span>The Subtle Art Of Not Giving A Fu*k</span>
+                                <span>Mark Manson</span>
+                                <span>&#8377; 599</span>
+                                <button class="action_button">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--______________feautred Author________________-->
+                <section class="feautred_author_section">
+                    <h1 class="section_heading">Feautred Authors</h1>
+                    <div class="feautred_author_slide">
+                        <div class="chevron chevron_left">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+                        </div>
+                        <div class="chevron chevron_right">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                        </div>
+                        <div class="feautred_author">
+                            <div class="author_card first_author_card">
+                                <img
+                                    src="../assets/image/author/author_1.jpg"
+                                    alt="author_image"
+                                />
+                                <span>Martin Manson</span>
+                            </div>
+                            <div class="author_card">
+                                <img
+                                    src="../assets/image/author/author_2.webp"
+                                    alt="author_image"
+                                />
+                                <span>paul atredis</span>
+                            </div>
+                            <div class="author_card">
+                                <img
+                                    src="../assets/image/author/author_3.webp"
+                                    alt="author_image"
+                                />
+                                <span>Stilger</span>
+                            </div>
+                            <div class="author_card">
+                                <img
+                                    src="../assets/image/author/author_4.webp"
+                                    alt="author_image"
+                                />
+                                <span>Rabbon</span>
+                            </div>
+                            <div class="author_card">
+                                <img
+                                    src="../assets/image/author/author_5.jpg"
+                                    alt="author_image"
+                                />
+                                <span>Duncon Idaho</span>
+                            </div>
+                            <div class="author_card">
+                                <img
+                                    src="../assets/image/author/author_6.jpg"
+                                    alt="author_image"
+                                />
+                                <span>Chani</span>
+                            </div>
+                            <div class="author_card">
+                                <img
+                                    src="../assets/image/author/author_7.jpg"
+                                    alt="author_image"
+                                />
+                                <span>Lady Jessica</span>
+                            </div>
+                            <div class="author_card last_author_card">
+                                <img
+                                    src="../assets/image/author/author_8.webp"
+                                    alt="author_image"
+                                />
+                                <span>Duke Leto Atredis</span>
+                            </div>
+                        <div>
+                </section>
+            </section>
+            <footer class="global_footer">
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="../html/home.html">Home</a></li>
+                            <li><a href="#">Books</a></li>
+                            <li><a href="#">Authors</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contact Information</h3>
+                        <p><strong>Address:</strong> 123 Book Street, City, Country</p>
+                        <p><strong>Email:</strong> info@example.com</p>
+                        <p><strong>Phone:</strong> +1 234 567 890</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><img src="../assets/image/social_media/kisspng-social-media-facebook-like-button-youtube-computer-facebook-5ac63c0768f117.1774193515229409354299.png" alt="Facebook"></a>
+                            <a href="#"><img src="../assets/image/social_media/kisspng-computer-icons-logo-social-media-twitter-bird-5ae9f79cacff25.6772521915252827167086.png" alt="Twitter"></a>
+                            <a href="#"><img src="../assets/image/social_media/kisspng-social-media-computer-icons-clip-art-instagram-5abe0f9071bbc7.7810810415224052644659.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Books Online Store. All rights reserved.</p>
+                </div>
+            </footer>
+        </main>
+    </body>
+    <script type="module" src="../js/hamburger.js"></script>
+    <script type="module" src="../js/home.js"></script>
+</html>

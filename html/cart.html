@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/cart.css" />
+        <title>Book Shelf</title>
+    </head>
+    <body>
+        <aside class="aside">
+            <div class="nav_overlay"></div>
+            <ul class="nav_aside_items">
+                <li class="cross_icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                    >
+                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                        />
+                    </svg>
+                </li>
+                <li><a href="../html/home.html">Home</a></li>
+                <li><a href="">Best Sellers</a></li>
+                <li><a href="../html/cart.html">Cart</a></li>
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="../index.html">Logout</a></li>
+            </ul>
+        </aside>
+        <header class="global_header">
+            <nav class="nav_wrapper">
+                <a class="logo" href="./home.html">
+                    <img
+                        src="../assets/image/transparent_logo.png"
+                        alt="logo"
+                    />
+                </a>
+                <ul class="nav_items">
+                    <li><a href="../html/home.html">Home</a></li>
+                    <li><a href="">Best Seller</a></li>
+                    <li><a href="../html/cart.html">Cart</a></li>
+                    <li><a href="../html/about.html">About</a></li>
+                    <li><a href="../index.html">Logout</a></li>
+                </ul>
+                <div class="hamburger_icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                    >
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                        />
+                    </svg>
+                </div>
+            </nav>
+        </header>
+
+        <main class="cart_container">
+            <div class="section_heading">My Cart</div>
+            <div class="product_details">
+                <div class="cart_product_block">
+                    <div class="cart_product_card">
+                        <img src="../assets/image/books/book_8.webp" alt="" />
+                        <div class="product_info">
+                            <span class="book_title"
+                                >Competing In The Age Of AI</span
+                            >
+                            <span class="price">&#8377; 599</span>
+                            <input
+                                type="number"
+                                value="1"
+                                min="1"
+                                max="5"
+                                placeholder="Quantity"
+                            />
+                            <button class="action_button">Checkout</button>
+                        </div>
+                    </div>
+                    <div class="cart_product_card">
+                        <img src="../assets/image/books/book_14.webp" alt="" />
+                        <div class="product_info">
+                            <span class="book_title"
+                                >The Subtle Art Of Not Giving A Fuck</span
+                            >
+                            <span class="price">&#8377; 599</span>
+                            <input
+                                type="number"
+                                value="1"
+                                min="1"
+                                max="5"
+                                placeholder="Quantity"
+                            />
+                            <button class="action_button">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_summary">
+                    <h1 class="section_heading">Order Summary</h1>
+                    <div>
+                        <p>
+                            Amount Payable:
+                            <span class="price">&#8377; 1198</span>
+                        </p>
+                        <p>You Save: <span class="price">&#8377; 100</span></p>
+                        <button class="action_button">
+                            Proceed To Checkout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="global_footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../html/home.html">Home</a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Authors</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>
+                        <strong>Address:</strong> 123 Book Street, City, Country
+                    </p>
+                    <p><strong>Email:</strong> info@example.com</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"
+                            ><img
+                                src="../assets/image/social_media/kisspng-social-media-facebook-like-button-youtube-computer-facebook-5ac63c0768f117.1774193515229409354299.png"
+                                alt="Facebook"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="../assets/image/social_media/kisspng-computer-icons-logo-social-media-twitter-bird-5ae9f79cacff25.6772521915252827167086.png"
+                                alt="Twitter"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="../assets/image/social_media/kisspng-social-media-computer-icons-clip-art-instagram-5abe0f9071bbc7.7810810415224052644659.png"
+                                alt="Instagram"
+                        /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Books Online Store. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <script type="module" src="../js/hamburger.js"></script>
+</html>

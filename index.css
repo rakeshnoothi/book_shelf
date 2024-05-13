@@ -1,0 +1,16 @@
+@import url(./global_style.css);
+@import url(./css/signup.css);
+
+.signup_redirect {
+    text-align: center;
+    color: var(--clr_fg);
+
+    & > a {
+        color: inherit;
+        font-weight: bold;
+
+        &:hover {
+            color: var(--clr_signature);
+        }
+    }
+}
